@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0000ffd7;
+    align-items: center;
+}
+.riches h2{
+    margin-bottom: 2%;
+    color: #ff00009e;
+}
+.riches span{
+    color: purple;
+}
+.riche input{
+    padding: 2% 3%;
+}
+
+
+button{
+    margin: 2%;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1%;
+    cursor: pointer;
+}
+.show{
+    /* display: none; */
+    display: block;
+    background-color: green;
+    /* margin:  5%; */
+    width: 100%;
+}
+
+.error{
+    width: 500px;
+    margin: auto;
+    background-color: red;
+    border-radius: .4rem;
+    padding: .5rem;
+    color: white;
+}
+.success{
+    background-color: green;
+    border-radius: .4rem;
+    padding: .5rem;
+    color: white;
+    
+}
